@@ -1,2 +1,2 @@
-# resautrant-page
+# Resautrant page
 I make a small restaurant page with javascript!
