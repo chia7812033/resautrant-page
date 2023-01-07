@@ -69,6 +69,8 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: orangered;
+  font-size: 30px;
 }
 
 #person1-img {
@@ -79,4 +81,30 @@ button:hover {
 #person2-img {
   content: url("https://static.miraheze.org/greatcharacterswiki/f/fb/Enid.png");
   height: 20rem;
+}
+
+p {
+  margin: 5px;
+}
+
+#food {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}
+
+#food1-img {
+  content: url("https://www.hersheyland.com/content/dam/hersheyland/en-us/recipes/recipe-images/2_Hersheys_Perfectly_Chocolate_Cake_11-18.jpeg");
+  height: 20rem;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+#food2-img {
+  content: url("https://www.thefoodinmybeard.com/wp-content/uploads/2016/09/dogparty6.jpg");
+  height: 20rem;
+  border-radius: 20px;
+  margin: 20px;
 }

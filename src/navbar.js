@@ -12,11 +12,6 @@ let nav = () => {
     menu.textContent = "Menu";
     nav.appendChild(menu);
 
-    let about = document.createElement('button');
-    about.id = "about"
-    about.textContent = "About";
-    nav.appendChild(about);
-
     let contact = document.createElement('button');
     contact.id = "contact"
     contact.textContent = "Contact";
